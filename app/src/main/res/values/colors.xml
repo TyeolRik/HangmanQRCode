@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="TyeolRikDark">#000000</color>
+    <color name="OxygenBottleTab">#303030</color>
+    <color name="colorPrimaryFireFighting">#F25E3D</color>
+    <color name="colorPrimaryDarkFireFighting">#A64037</color>
+    <color name="colorBright1FireFighting">#F28F38</color>
+    <color name="colorBright2FireFighting">#f2b035</color>
+    <color name="colorBright3FireFighting">#F2E529</color>
+</resources>

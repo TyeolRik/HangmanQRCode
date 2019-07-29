@@ -1,0 +1,189 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="io.github.tyeolrik.hangmanqrcode.Fragment_Information">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/division"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="부서명"
+                android:textColor="@color/TyeolRikDark"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/divisionText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="(예시) 소방행정과"
+                android:textColor="@color/TyeolRikDark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bottleCode"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="용기번호"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/TyeolRikDark" />
+
+            <TextView
+                android:id="@+id/bottleCodeText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="(예시) 0872KM183"
+                android:textSize="18sp"
+                android:textColor="@color/TyeolRikDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/manufacturedDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="제조일"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/TyeolRikDark" />
+
+            <TextView
+                android:id="@+id/manufacturedDateText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="(예시) 2016년 1월 1일"
+                android:textSize="18sp"
+                android:textColor="@color/TyeolRikDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/expiryDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="사용기한"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/TyeolRikDark" />
+
+            <TextView
+                android:id="@+id/expiryDateText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="(예시) 2030년 12월 31일"
+                android:textColor="@color/TyeolRikDark"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/expectedPressureTestDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="압력검사예정일"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/TyeolRikDark" />
+
+            <TextView
+                android:id="@+id/expectedPressureTestDateText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="(예시) 2020년 12월 1일"
+                android:textSize="18sp"
+                android:textColor="@color/TyeolRikDark" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.16"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/lastPressureTestDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.4"
+                android:gravity="center"
+                android:text="최종압력검사일"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/TyeolRikDark" />
+
+            <TextView
+                android:id="@+id/lastPressureTestDateText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="center"
+                android:text="(예시) 2020년 1월 1일"
+                android:textSize="18sp"
+                android:textColor="@color/TyeolRikDark" />
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

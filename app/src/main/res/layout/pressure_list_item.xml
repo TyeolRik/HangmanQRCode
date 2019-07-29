@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pressureTestConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="50sp"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/pressureEditButton"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_margin="0dp"
+            android:background="@color/colorBright2FireFighting"
+            android:padding="0dp"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/material_pencil_white_24dp" />
+
+        <ImageButton
+            android:id="@+id/pressureDeleteButton"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_margin="0dp"
+            android:background="@color/colorPrimaryDarkFireFighting"
+            android:padding="0dp"
+            android:tint="@android:color/white"
+            app:srcCompat="@drawable/ic_delete_black_24dp" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/pressureTestLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_margin="0dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/pressureListItemCount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:text="1차"
+            android:textAlignment="center"
+            android:textColor="@color/TyeolRikDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/pressureListItemDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:text="(예시) 2017년 12월 18일"
+            android:textAlignment="center"
+            android:textColor="@color/TyeolRikDark"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
